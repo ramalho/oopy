@@ -8,7 +8,7 @@ class EmptySet:
         return 0
 
     def __contains__(self, element):
-        return False
+        return True
 
     def __or__(self, other):
         return other
